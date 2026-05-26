@@ -95,10 +95,15 @@ Acceptance criterion: ≥80% of validation trial estimates within the 95% simula
 
 ## Citation
 
-> Muñoz López M, Quesada Fernández G, Zabaleta Korta A, Sancho Haro E, Baz Valle E,  
+> Muñoz López M, Quesada Fernández G, Zabaleta Korta A, Sancho Haro ES, Baz Valle E,  
 > Ramírez de la Piscina Viúdez X, López Gil JF, Tornero-Aguilera JF.  
 > More Cardio, Less Fat? A Probabilistic Simulation of Exercise-Induced Fat Loss  
 > Under Different Energy Compensation Scenarios. [Journal — under review]
+
+---
+
+## Author contributions
+Conceptualization, M.M.-L., G.Q.-F. and E.S.S.-H.; methodology, M.M.-L., G.Q.-F., E.S.S.-H. and J.F.L.-G.; validation, G.Q.-F, E.S.S.-H., A.Z.-K. and E.B.-V.; formal analysis, M.M.-L., G.Q.-F., E.S.S.-H. and J.F.T.-A.; investigation, M.M.-L., A.Z.-K., E.B.-V. and X.,R-V.; resources, J.F.L.-G. and J.F.T.-A.; data curation, M.M.-L. G.Q.-F and E.S.S.-H.; writing—original draft preparation, M.M.L. and J.F.T.-A.; writing—review and editing, M.M.-L., G.Q.-F, E.S.S.-H., A.Z.-K., E.B.-V., X.,R-V., J.F.L.-G. and J.F.T.-A.; visualization, M.M.-L., G.Q.-F and J.F.T.-A.; supervision, J.F.L.-G and J.F.T.-A.; project administration, J.F.T.-A. All authors have read and agreed to the published version of the manuscript.
 
 ---
 
