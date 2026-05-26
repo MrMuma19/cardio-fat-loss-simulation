@@ -10,7 +10,7 @@ Corresponding author: José Francisco Tornero-Aguilera — jtornero@fitgeneratio
 
 This repository contains the complete simulation code for the preregistered probabilistic modelling study examining the dose-response relationship between aerobic exercise volume and fat-mass loss under different energy compensation scenarios.
 
-**Preregistration:** OSF — [link to be added after registration]  
+**Preregistration:** OSF — [https://doi.org/10.17605/OSF.IO/TD2ZS]  
 **Random seed:** 42 (fixed; do not modify)  
 **Language:** Python ≥ 3.11
 
