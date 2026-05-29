@@ -1,0 +1,11 @@
+parameter,current_value,issue,action_required,blocking_submission
+body_fat_pct_male,"TruncNormal(32;5.5)","No specific NHANES body composition table cited. Hales et al. 2020 [26] is obesity prevalence only.","Cite Romero-Corral et al. 2008 Int J Obes OR specific NHANES DEXA subsample table.",YES
+body_fat_pct_female,"TruncNormal(42;5.5)","Same issue as male BFP","Same fix as above",YES
+pal_baseline,"TruncNormal(1.40;0.08)","No specific primary source. PAL 1.25-1.60 consistent with literature but distribution not from single study.","Add Black et al. 1996 or cite as modelling assumption in Methods.",YES
+neat_share,0.30,"Proportion not derived from quantitative source. NEAT/AT caps non-binding so value does not affect delta_fm — but must be stated.","Disclose as modelling assumption. State caps non-binding. Auditor recommendation: accept or simplify to scalar model.",NO — but must disclose
+at_share,0.20,"Pontzer & Trexler 2026 reference not verified. Caps non-binding.","Verify reference OR use Rosenbaum & Leibel 2010 with at_share=0.15",YES
+at_scale_8wk,0.80,"Same unverified reference","Same fix",YES
+at_scale_16wk,1.15,"Same unverified reference","Same fix",YES
+at_scale_24wk,1.35,"Same unverified reference","Same fix",YES
+comp_var,0.032,"Riou et al. 2015 reports between-study SD=93%. Using as within-individual variance is level-of-analysis mismatch.","Disclose in Methods: comp_var operationalises between-study compensation heterogeneity as individual-level variability — a simplification.",YES — disclosure required
+psa_adherence_sd,0.06,"No formal meta-analytic estimate of between-trial adherence variance.","Accept as modelling assumption or conduct meta-regression on trial-level adherence.",NO — provisional

@@ -1,0 +1,5 @@
+study,arm_label,exercise_dose_min_week,duration_weeks,duration_weeks_observed,model_duration_weeks,duration_handling,outcome_type,delta_fm_observed,delta_bw_observed,predicted_mean_delta_fm,predicted_mean_delta_bw,observed_for_comparison,prediction_for_comparison,prediction_type_used,absolute_error_corrected,role
+Jayedi et al.,75 min/wk,75,12,12,12,within_model_horizon,delta_bw,,-0.87,-0.2457,-0.2996,-0.87,-0.2996,predicted_mean_delta_bw,0.5704,calibration
+Jayedi et al.,150 min/wk,150,12,12,12,within_model_horizon,delta_bw,,-1.74,-0.4914,-0.5992,-1.74,-0.5992,predicted_mean_delta_bw,1.1408,calibration
+Jayedi et al.,300 min/wk,300,12,12,12,within_model_horizon,delta_bw,,-3.48,-0.9367,-1.1423,-3.48,-1.1423,predicted_mean_delta_bw,2.3377,calibration
+Jayedi et al.,450 min/wk,450,12,12,12,within_model_horizon,delta_bw,,-4.19,-1.338,-1.6318,-4.19,-1.6318,predicted_mean_delta_bw,2.5582000000000003,calibration

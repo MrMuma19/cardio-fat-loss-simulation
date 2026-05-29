@@ -1,0 +1,12 @@
+study,year,arm_label,sample_size,sex_distribution,mean_age,mean_BMI,baseline_body_weight_kg,exercise_dose_min_week,duration_weeks,adherence,outcome_type,delta_fm_observed,delta_bw_observed,observed_sd,role,notes
+Jayedi et al.,2024,75 min/wk,6880,~50% F,46,33,,75,12,,delta_bw,,-0.87,,calibration,Primary calibration source — excluded from validation metrics
+Jayedi et al.,2024,150 min/wk,6880,~50% F,46,33,,150,12,,delta_bw,,-1.74,,calibration,
+Jayedi et al.,2024,300 min/wk,6880,~50% F,46,33,,300,12,,delta_bw,,-3.48,,calibration,
+Jayedi et al.,2024,450 min/wk,6880,~50% F,46,33,,450,12,,delta_bw,,-4.19,,calibration,Extrapolated from dose-response curve
+STRRIDE Slentz 2004,2004,Low-amount moderate,50,100% M,51,30,,120,24,,delta_fm,-1.10,,,strride_sensitivity,STRRIDE used for adherence penalty parametrisation — partial circularity. Sensitivity analysis only.
+STRRIDE Slentz 2004,2004,High-amount vigorous,50,100% M,51,30,,200,24,,delta_fm,-2.60,,,strride_sensitivity,Same circularity note
+Church et al.,2009,Control,102,100% F,57,,87,0,24,,delta_bw,,0.10,,validation_primary,Postmenopausal women; n=411 total across arms
+Church et al.,2009,4 kcal/kg/wk,103,100% F,57,,87,75,24,,delta_bw,,-0.50,,validation_primary,Approximate from published figures
+Church et al.,2009,8 kcal/kg/wk,104,100% F,57,,87,150,24,,delta_bw,,-0.70,,validation_primary,Approximate
+Church et al.,2009,12 kcal/kg/wk,102,100% F,57,,87,225,24,,delta_bw,,-1.40,,validation_primary,Approximate
+Midwest Exercise Trial,,Exercise arm,,,,,,,64,,delta_fm,,,,validation_primary,MISSING: values not yet extracted from source paper. Required for complete validation.

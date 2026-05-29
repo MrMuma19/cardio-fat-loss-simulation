@@ -1,0 +1,14 @@
+name: cardio-fat-loss-v2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - numpy==2.4.4
+    - scipy==1.17.1
+    - pandas==3.0.2
+    - matplotlib==3.10.8
+    - pyarrow>=16.0
+    - pytest>=8.0

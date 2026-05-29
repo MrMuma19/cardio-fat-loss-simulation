@@ -1,0 +1,27 @@
+parameter,value_or_distribution,unit,source,status,notes
+sex,Bernoulli(p=0.50),binary,"Jayedi et al. 2024 [5]",RESOLVED,Equal sex split consistent with meta-analysis population
+age,TruncNormal(46;12;[25-65]),years,"Jayedi et al. 2024 [5]",RESOLVED,
+body_weight_male,TruncNormal(90;18;[55-160]),kg,"NHANES 2017-2018 [26]",RESOLVED,
+body_weight_female,TruncNormal(77;18;[55-160]),kg,"NHANES 2017-2018 [26]",RESOLVED,
+bmi,TruncNormal(33;4.5;[27-45]),kg/m2,"Jayedi et al. 2024 [5]",RESOLVED,
+body_fat_pct_male,TruncNormal(32;5.5;[18-55]),percent,NHANES body composition tables — specific table not cited,UNRESOLVED,"Hales et al. 2020 [26] reports obesity prevalence but not sex-stratified BFP distributions. Need: NHANES DEXA subsample or Romero-Corral et al. 2008 Int J Obes as alternative."
+body_fat_pct_female,TruncNormal(42;5.5;[22-58]),percent,NHANES body composition tables — specific table not cited,UNRESOLVED,Same issue as male BFP
+rmr_residual_error,TruncNormal(1.0;0.10;[0.75-1.30]),multiplicative,"Frankenfield et al. 2005 [23]",RESOLVED,
+pal_baseline,TruncNormal(1.40;0.08;[1.25-1.60]),dimensionless,No specific primary source cited,UNRESOLVED,"PAL range 1.25-1.60 consistent with sedentary adults (Black et al. 1996 Eur J Clin Nutr) but specific distribution not from a single study. Disclose as modelling assumption."
+met_exercise,TruncNormal(4.5;0.6;[3.0-6.5]),dimensionless,"Ainsworth et al. 2011 [24]",RESOLVED,Net ExEE uses MET-1 (resting cost subtracted)
+adherence_base_mean,Beta(mean=0.82;var=0.025),fraction,"STRRIDE [19,20]; Avila et al. 2023 systematic review",RESOLVED,Mean adherence across supervised exercise trials 0.72-0.92
+adherence_dose_penalty,0.04 per 150 min/wk above 150,fraction per increment,"STRRIDE [19,20]",RESOLVED — WITH CIRCULARITY NOTE,STRRIDE used for both adherence parametrisation and validation sensitivity. Disclose.
+comp_var,0.032,Beta variance,"Riou et al. 2015 [11]",PARTIALLY RESOLVED,"Riou reports between-study SD=93%. Using as within-individual variance is a level-of-analysis mismatch. Disclose explicitly in Methods."
+intake_share,0.50,fraction of total compensation,"Blundell et al. 2015 [17]",PARTIALLY RESOLVED,"Blundell reports ~33% acute compensation. 0.50 chosen conservatively for chronic interventions — not directly extracted from data. Modelling assumption."
+neat_share,0.30,fraction of total compensation,"Melanson et al. 2013 [10]; Flanagan et al. 2024 [13]",UNRESOLVED,"Proportion 0.30 not derived from a single source. Modelling assumption based on qualitative reading of literature. NEAT/AT caps non-binding — share does not affect delta_fm."
+at_share,0.20,fraction of total compensation,"Pontzer & Trexler 2026 [12]",UNRESOLVED — REFERENCE NOT VERIFIED,"Pontzer & Trexler 2026 reference not confirmed as existing. If unavailable: AT=0.15 defensible from Rosenbaum & Leibel 2010 [18] alone. NEAT/AT caps non-binding — share does not affect delta_fm."
+neat_cap_fraction,0.60,fraction of baseline nonresting EE,Author modelling assumption,UNRESOLVED — CAP NON-BINDING,"Cap never binding at 0-450 min/wk (see neat_cap_binding_report.txt). Operationally irrelevant at studied doses. Disclose."
+at_cap_fraction,0.12,fraction of weekly RMR,Author modelling assumption,UNRESOLVED — CAP NON-BINDING,Same as NEAT cap — never binding. Operationally irrelevant.
+at_scale_8wk,0.80,dimensionless,"Pontzer & Trexler 2026 [12]",UNRESOLVED — REFERENCE NOT VERIFIED,Same reference issue as at_share
+at_scale_12wk,1.00,dimensionless,Reference point,RESOLVED,Defined as reference duration
+at_scale_16wk,1.15,dimensionless,"Pontzer & Trexler 2026 [12]",UNRESOLVED — REFERENCE NOT VERIFIED,
+at_scale_24wk,1.35,dimensionless,"Pontzer & Trexler 2026 [12]",UNRESOLVED — REFERENCE NOT VERIFIED,
+forbes_constant_c,10.4,kg,"Hall 2007 [25]",RESOLVED,
+ed_fat_fraction,9441,kcal/kg,"Hall 2007 [8]",RESOLVED,Applied to lipid fraction of weight loss
+ed_ffm_fraction,1816,kcal/kg,"Hall 2007 [8]",RESOLVED,Applied to FFM fraction
+sessions_per_week,3,sessions/week,"Jayedi et al. 2024 [5] modal value",RESOLVED,Not varied in sensitivity analysis

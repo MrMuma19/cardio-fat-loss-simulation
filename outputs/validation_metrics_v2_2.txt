@@ -1,0 +1,43 @@
+External Validation Metrics — V2.2.1
+=============================================
+
+Model: compensation-adjusted probabilistic simulation with explicit
+component accounting (intake 50%, NEAT 30%, AT 20%).
+Note: NEAT and AT caps non-binding at studied doses — component accounting
+does not materially alter predictions relative to scalar compensation.
+
+Primary model horizon for validation comparisons: 24 weeks.
+Rows longer than this horizon are compared against a truncated 24-week
+model prediction and are not counted as primary validation.
+
+[preliminary_primary_validation]
+  Source       : Church et al. 2009 (n=4 arms)
+  Outcome type : delta_bw
+  RMSE         : 0.313 kg
+  MAE          : 0.262 kg
+  n data points: 4
+
+  NOTE: ICC and coverage not computed.
+  Rationale: ICC requires ≥10 independent validation estimates.
+  Coverage (% within 95% PI) not computed without sufficient independent data.
+
+[strride_sensitivity — NOT primary validation]
+  Source       : STRRIDE (Slentz 2004) — partial circularity (adherence parametrisation)
+  RMSE         : 0.953 kg
+  MAE          : 0.812 kg
+  n data points: 2
+
+[extended_duration_external_comparison — Donnelly 2003 & 2013]
+  Donnelly 2003 and Donnelly 2013 exceeded the model's primary 24-week horizon
+  and were therefore treated as extended-duration comparisons rather than
+  primary external validation datasets.
+  n = 4 arms | truncated predictions = 4/4
+  RMSE = 1.099 kg | MAE = 0.908 kg
+  NOTE: observed changes are from 45-69 week trials; predictions are capped at 24 weeks.
+  Directional mismatch is expected when comparing longer observed interventions
+  with a shorter model horizon.
+
+Items required to complete validation:
+  1. Extract more independent external arms with observed delta_fm/delta_bw, SD, sample size, dose, and duration.
+  2. Once available, re-run this script.
+  3. With ≥10 independent estimates: compute ICC and 95% PI coverage.

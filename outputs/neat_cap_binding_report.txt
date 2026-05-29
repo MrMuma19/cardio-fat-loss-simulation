@@ -1,0 +1,10 @@
+NEAT Cap Binding Report — V2.2
+==============================
+Stress scenario: 300 min/wk, 12 wk, 75% compensation
+Mean NEAT demand  : 264.6 kcal/wk
+Mean NEAT cap (60%): 2635.0 kcal/wk
+Individuals hitting cap: 0/10000 (0.00%)
+
+Because NEAT and AT caps were non-binding at the studied doses,
+component accounting did not materially alter fat-mass predictions
+relative to a scalar compensation formulation.

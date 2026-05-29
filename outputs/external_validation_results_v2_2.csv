@@ -1,0 +1,15 @@
+study,arm_label,exercise_dose_min_week,duration_weeks,duration_weeks_observed,model_duration_weeks,duration_handling,outcome_type,delta_fm_observed,delta_bw_observed,predicted_mean_delta_fm,predicted_mean_delta_bw,observed_for_comparison,prediction_for_comparison,prediction_type_used,absolute_error_corrected,role
+Jayedi et al.,75 min/wk,75,12,12,12,within_model_horizon,delta_bw,,-0.87,-0.2457,-0.2996,-0.87,-0.2996,predicted_mean_delta_bw,0.5704,calibration
+Jayedi et al.,150 min/wk,150,12,12,12,within_model_horizon,delta_bw,,-1.74,-0.4914,-0.5992,-1.74,-0.5992,predicted_mean_delta_bw,1.1408,calibration
+Jayedi et al.,300 min/wk,300,12,12,12,within_model_horizon,delta_bw,,-3.48,-0.9367,-1.1423,-3.48,-1.1423,predicted_mean_delta_bw,2.3377,calibration
+Jayedi et al.,450 min/wk,450,12,12,12,within_model_horizon,delta_bw,,-4.19,-1.338,-1.6318,-4.19,-1.6318,predicted_mean_delta_bw,2.5582000000000003,calibration
+STRRIDE Slentz 2004,Low-amount moderate,120,24,24,24,within_model_horizon,delta_fm,-1.1,,-0.7862,-0.9587,-1.1,-0.7862,predicted_mean_delta_fm,0.3138000000000001,sensitivity_only
+STRRIDE Slentz 2004,High-amount vigorous,200,24,24,24,within_model_horizon,delta_fm,-2.6,,-1.2893,-1.5724,-2.6,-1.2893,predicted_mean_delta_fm,1.3107000000000002,sensitivity_only
+Church et al.,Control,0,24,24,24,within_model_horizon,delta_bw,,0.1,-0.0,-0.0,0.1,-0.0,predicted_mean_delta_bw,0.1,validation_primary
+Church et al.,4 kcal/kg/wk,75,24,24,24,within_model_horizon,delta_bw,,-0.5,-0.4914,-0.5992,-0.5,-0.5992,predicted_mean_delta_bw,0.09919999999999995,validation_primary
+Church et al.,8 kcal/kg/wk,150,24,24,24,within_model_horizon,delta_bw,,-0.7,-0.9827,-1.1984,-0.7,-1.1984,predicted_mean_delta_bw,0.49839999999999995,validation_primary
+Church et al.,12 kcal/kg/wk,225,24,24,24,within_model_horizon,delta_bw,,-1.4,-1.436,-1.7512,-1.4,-1.7512,predicted_mean_delta_bw,0.3512000000000002,validation_primary
+Donnelly et al. 2003 (MET-1),Exercise group,300,69,69,24,truncated_to_24wk_model_horizon,delta_bw,,-4.2,-1.8734,-2.2847,-4.2,-2.2847,predicted_mean_delta_bw,1.9153000000000002,extended_duration_external_comparison
+Donnelly et al. 2003 (MET-1),Control group,0,69,69,24,truncated_to_24wk_model_horizon,delta_bw,,0.5,-0.0,-0.0,0.5,-0.0,predicted_mean_delta_bw,0.5,extended_duration_external_comparison
+Donnelly et al. 2013 (MET-2),Exercise group,300,45,45,24,truncated_to_24wk_model_horizon,delta_bw,,-2.6,-1.8734,-2.2847,-2.6,-2.2847,predicted_mean_delta_bw,0.31530000000000014,extended_duration_external_comparison
+Donnelly et al. 2013 (MET-2),Control group,0,45,45,24,truncated_to_24wk_model_horizon,delta_bw,,0.9,-0.0,-0.0,0.9,-0.0,predicted_mean_delta_bw,0.9,extended_duration_external_comparison

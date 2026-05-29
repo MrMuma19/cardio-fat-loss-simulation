@@ -1,0 +1,20 @@
+Reproducibility Session Info — V2.2
+========================================
+Generated: from actual runtime environment
+Python    : 3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]
+Platform  : Linux-6.18.5-x86_64-with-glibc2.39
+numpy     : 2.4.4
+scipy     : 1.17.1
+pandas    : 3.0.2
+matplotlib: 3.10.8
+
+Random seed (primary simulation): 42
+Random seed (PSA outer loop)    : 20250526
+
+Execution order:
+  1. python code_v2_2/simulation_v2_1.py
+  2. python code_v2_2/psa_parametric_v2_1.py
+  3. python code_v2_2/sensitivity_oneway_v2_1.py
+  4. python code_v2_2/generate_figures_v2_1.py
+  5. python code_v2_2/validation_external_v2_2.py
+  6. python -m pytest code_v2_2/test_model_v2_1.py -v

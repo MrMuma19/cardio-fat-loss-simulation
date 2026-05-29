@@ -1,0 +1,17 @@
+parameter,attribute,level,parameter_value,mean_fm,absolute_change,relative_change_pct
+MET mean,met_mean,low,4.0,0.5436004927166347,-0.07922754937431631,-12.720613720014036
+MET mean,met_mean,high,5.0,0.7081222471400045,0.0852942050490535,13.694663580449074
+MET SD,met_sd,low,0.4,0.6211784290797392,-0.0016496130112118035,-0.2648585002168082
+MET SD,met_sd,high,0.9,0.6323739513169625,0.009545909226011506,1.532671713682655
+Adherence base mean,adherence_base_mean,low,0.72,0.5436754834726256,-0.07915255861832537,-12.708573357197492
+Adherence base mean,adherence_base_mean,high,0.92,0.7072562096028336,0.08442816751188265,13.555614360015229
+Adherence dose penalty,adherence_dose_penalty_per_150min_above_150,low,0.01,0.6449952493626181,0.0221672072716671,3.5591215831014305
+Adherence dose penalty,adherence_dose_penalty_per_150min_above_150,high,0.08,0.596612586626661,-0.02621545546429005,-4.209100055334669
+RMR residual SD,rmr_residual_sd,low,0.06,0.622828042090951,0.0,0.0
+RMR residual SD,rmr_residual_sd,high,0.16,0.622828042090951,0.0,0.0
+Comp variance,comp_var,low,0.01,0.6241748077031217,0.0013467656121707305,0.21623393957172912
+Comp variance,comp_var,high,0.06,0.6253076109653356,0.002479568874384608,0.39811452067254843
+NEAT cap fraction,neat_cap_fraction_of_nonresting,low,0.2,0.622828042090951,0.0,0.0
+NEAT cap fraction,neat_cap_fraction_of_nonresting,high,0.9,0.622828042090951,0.0,0.0
+AT cap fraction,at_cap_fraction_of_rmr,low,0.04,0.622828042090951,0.0,0.0
+AT cap fraction,at_cap_fraction_of_rmr,high,0.25,0.622828042090951,0.0,0.0
